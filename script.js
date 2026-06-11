@@ -49,7 +49,7 @@ const updateExchangeRate = async () => {
 
     let finalAmount = (amtVal * rate).toFixed(2);
     msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
-    console.log("Success")
+    console.log("Success");
   } catch (Error) {
     console.log(Error);
     msg.innerText = "Error while fetching details.\n Please try again!";
