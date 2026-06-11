@@ -56,6 +56,7 @@ const updateExchangeRate = async () => {
   }
 };
 
+
 btn.addEventListener("click", (evt) => {
   msg.innerText = "";
   evt.preventDefault();
